@@ -44,4 +44,12 @@ systemctl restart docker
 
 #### 直接本地运行
 
-TODO
+archlinux
+
+```bash
+sudo pacman -S uv
+uv venv
+source .venv/bin/activate
+uv sync
+uvicorn main:app --host 0.0.0.0 --port 8000
+```

@@ -16,27 +16,28 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 dependencies = [
-    "fastapi==0.104.1",
-    "uvicorn==0.23.2",
-    "sqlalchemy==2.0.23",
-    "psycopg2==2.9.10",
-    "python-dotenv==1.0.0",
-    "alembic==1.12.1",
-    "pydantic==2.5.0",
-    "pydantic-settings==2.1.0",
-    "python-jose==3.3.0",
-    "passlib==1.7.4",
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "psycopg2",
+    "python-dotenv",
+    "alembic",
+    "pydantic",
+    "pydantic-settings",
+    "python-jose",
+    "passlib",
     "pydantic[email]",
-    "python-multipart"
+    "python-multipart",
+    "bcrypt"
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.0.0",
-    "black>=23.0.0",
-    "isort>=5.12.0",
-    "flake8>=6.0.0",
-    "mypy>=1.0.0",
+    "pytest",
+    "black",
+    "isort",
+    "flake8",
+    "mypy",
 ]
 
 [tool.black]
